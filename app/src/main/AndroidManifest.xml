@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rishabh.casino" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/casinoopy"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+
+            android:icon="@drawable/casinoopy">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PLAY"
+            android:label="Casino"
+
+            android:icon="@drawable/casinoopy">
+            <intent-filter>
+                <action android:name="com.example.rishabh.casino.PLAY" />
+
+                <category android:name="android.intent.category." />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Rules"
+            android:label="Casino-Rules"
+            android:icon="@drawable/casinoopy">
+            <intent-filter>
+                <action android:name="com.example.rishabh.casino.Rules" />
+
+                <category android:name="android.intent.category." />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Game"
+            android:label="Casino"
+
+            android:icon="@drawable/casinoopy">
+            <intent-filter>
+                <action android:name="com.example.rishabh.casino.Game" />
+
+                <category android:name="android.intent.category." />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

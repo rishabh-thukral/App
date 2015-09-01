@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/container"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.example.rishabh.casino.Rules" tools:ignore="MergeRootFrame"
+    android:background="@drawable/download">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal" >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="top">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:layout_height="52dp"
+            android:text="RULES ARE:-\n\n"
+            android:gravity="center"
+            android:typeface="serif"
+            android:textSize="32sp"
+            android:id="@+id/textView2" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:textColor="#120265"
+            android:textSize="15sp"
+            android:text="#1.YOU ENTER THE AMOUNT OF MONEY WITH WHICH YOU ENTER THE CASINO"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#120265"
+            android:layout_height="wrap_content"
+            android:typeface="sans"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="#2.YOU GET CHIPS FOR ALL THE MONEY YOU HAD AND NOW YOU CHOOSE THE AMOUNT THAT YOU WANT TO BET ON"
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="sans"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#120265"
+            android:text="#3.YOU CHOOSE YOUR BET AMONGST THE FOLLOWING\n\t1.ODD NUMBER\n\t2.EVEN NUMBER\n\t3.PRIME NUMBER\n\t4.MULTIPLE OF THREE\n\t5.EXACT NUMBER"
+            android:id="@+id/textView5"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="sans"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#120265"
+            android:text="#4.YOU WIN :\n10% FOR BET 1.\n10% FOR BET 2\n 25% FOR BET 3\n50% FOR BET 4\n100%FOR BET 5\tOF TOTAL AMOUNT OF BET  "
+            android:id="@+id/textView6"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="#120265"
+            android:text="#5.WHAT HAPPENS IF I LOOSE ALL MY MONEY?? \n\tWELL GAME OVER BRO"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>
